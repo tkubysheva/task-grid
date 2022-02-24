@@ -4,3 +4,15 @@ body,
     height: 100%;
     margin: 0;
 }
+.grid-container {
+    height: 400px;
+    width: 700px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: [row1-start] auto [row1-end] 200px [third-line] auto [last-line];
+}
+div {
+    background: #daa520;
+}
